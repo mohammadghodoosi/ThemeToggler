@@ -18,7 +18,7 @@ const Tabs = () => {
      id='navBrand'> 
       <img id='navLogo' 
       src={infinity}/>
-      React-Bootstrap
+      ThemeToggler
      </Navbar.Brand>
      <Navbar.Toggle 
      aria-controls="basic-navbar-nav" />
