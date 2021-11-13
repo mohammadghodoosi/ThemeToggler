@@ -1,9 +1,11 @@
 import '../Style.css'
+import Ring from './Ring';
 const Application = () => {
-  return ( <>
+  return ( <div className="text">
   
-<h1>app</h1>
-  </> );
+  <Ring/>
+
+  </div> );
 }
  
 export default Application;
