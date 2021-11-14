@@ -8,6 +8,7 @@ import About from './component/About'
 import Footer from './component/Footer'
 import './Style.css'
 import {Helmet} from 'react-helmet'
+import ThemeContextProvider, { ThemeContext } from './conrext/ThemeContext'
 
 
 function App() {
@@ -26,7 +27,9 @@ function App() {
            <Home/>
          </Route>
          <Route path='/App'>
+           <ThemeContextProvider>
            <Application/>
+           </ThemeContextProvider>
          </Route>
          <Route path='/Code'>
            <Code/>
