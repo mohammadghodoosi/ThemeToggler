@@ -14,7 +14,7 @@ const Home = () => {
     history.push('/App')
   }
   return ( <>
-   <div className="container mb-5 mt-0">
+   <div className="container mb-5 mt-4">
      <div className="row row-cols-1 row-cols-sm-2  mb-5  gx-5">
           {/* room for explanation about the app */}
 

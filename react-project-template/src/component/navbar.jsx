@@ -9,7 +9,6 @@ const Tabs = () => {
 
   return ( <>
     <Navbar 
-     style={{marginBottom:'20px'}} 
      variant={'dark'} 
      bg='dark' 
      expand="md">
