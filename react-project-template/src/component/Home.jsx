@@ -4,12 +4,8 @@ import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import '../Style.css';
 import {useHistory} from 'react-router-dom'
 
-
-
-
 const Home = () => {
   const history=useHistory()
-
   const clickH=()=>{
     history.push('/App')
   }

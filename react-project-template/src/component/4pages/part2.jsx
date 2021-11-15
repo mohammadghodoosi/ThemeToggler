@@ -1,7 +1,13 @@
 import React from 'react';
+import { ThemeContext } from '../conrext/ThemeContext';
 class Part2 extends React.Component {
+  static contextType=ThemeContext;
   render() { 
-    return <div className='text'>one ring to find them .</div>;
+    const {isLightTheme,light,dark}=this.context;
+    const Theme=isLightTheme?dark:light;
+    return <div className="text" 
+    style={{background:Theme.bg,color:Theme.color,fontFamily:Theme.font}}>
+      one ring to bring them all.<br/><br/>and bind them in the darkness.</div>;
   }
 }
  
